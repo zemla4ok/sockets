@@ -1,0 +1,22 @@
+{
+  "name": "coinbase_pro_socket_middleware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node src/server.js & mocha"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "coinbase-pro": "^0.9.0",
+    "ws": "^7.4.5",
+    "ws-client-js": "^1.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.24.0",
+    "mocha": "^8.3.2"
+  }
+}
